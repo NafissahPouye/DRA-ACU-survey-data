@@ -46,7 +46,7 @@
 <div id="information-on-selected-important-key-variables" class="section level2">
 <h2>Information on selected important (key) variables</h2>
 <ul>
-<li><strong>Categorical key variable(s)</strong>: <em>Descriptive data Governorate pcode</em> | <em>Descriptive data District pcode</em> | <em>Descriptive data Sub-district pcode</em> | <em>Governorate</em> | <em>District</em> | <em>Sub-district</em> | <em>Descriptive data Cluster name</em> | <em>Descriptive data Camp name</em></li>
+<li><strong>Categorical key variable(s)</strong>: <em>Descriptive data Governorate pcode</em> | <em>Descriptive data District pcode</em> | <em>Descriptive data Sub-district pcode</em> | <em>Governorate</em> | <em>District</em> | <em>Sub-district</em> | <em>Descriptive data Cluster name</em> | <em>Descriptive data Camp name</em> | <em>Descriptive data gender of key informant</em> | <em>Descriptive data key informant type</em></li>
 <li><strong>Continuous key variable(s)</strong>: <em>not defined</em></li>
 <li><strong>Weight variable</strong>: <em>not defined</em></li>
 <li><strong>householdID</strong>: <em>not defined</em></li>
@@ -101,6 +101,8 @@
 <th align="left">Sub-district</th>
 <th align="left">Descriptive data Cluster name</th>
 <th align="left">Descriptive data Camp name</th>
+<th align="left">Descriptive data gender of key informant</th>
+<th align="left">Descriptive data key informant type</th>
 <th align="left">risk</th>
 <th align="right">fk</th>
 <th align="right">Fk</th>
@@ -116,6 +118,8 @@
 <td align="left">Harim</td>
 <td align="left">Harim</td>
 <td align="left">Al-Fardan</td>
+<td align="left">male</td>
+<td align="left">camp_residense</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -129,6 +133,8 @@
 <td align="left">Harim</td>
 <td align="left">Harim</td>
 <td align="left">Al Madinah Al Monawarah</td>
+<td align="left">male</td>
+<td align="left">elderly</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -142,6 +148,8 @@
 <td align="left">A’zaz</td>
 <td align="left">Bab Al Salameh</td>
 <td align="left">Rayyan</td>
+<td align="left">male</td>
+<td align="left">camp_residense</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -155,6 +163,8 @@
 <td align="left">Harim</td>
 <td align="left">Harim</td>
 <td align="left">Tejemmu Alzira’a</td>
+<td align="left">male</td>
+<td align="left">camp_residense</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -168,6 +178,8 @@
 <td align="left">Ma’arrat An Nu’man</td>
 <td align="left">Maarrat An Numan</td>
 <td align="left">Stadium</td>
+<td align="left">male</td>
+<td align="left">camp_manager</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -181,6 +193,8 @@
 <td align="left">Jarablus</td>
 <td align="left">Jarablus</td>
 <td align="left">zoghara</td>
+<td align="left">male</td>
+<td align="left">camp_residense</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -194,6 +208,8 @@
 <td align="left">A’zaz</td>
 <td align="left">Bab Al Salameh</td>
 <td align="left">Bab Al Salameh Al Hododi</td>
+<td align="left">male</td>
+<td align="left">camp_residense</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -207,6 +223,8 @@
 <td align="left">A’zaz</td>
 <td align="left">Bab Al Salameh</td>
 <td align="left">Bab Al Salameh Al Jadeed</td>
+<td align="left">male</td>
+<td align="left">camp_residense</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -220,6 +238,8 @@
 <td align="left">Ma’arrat An Nu’man</td>
 <td align="left">Maarrat An Numan</td>
 <td align="left">Al Qasr</td>
+<td align="left">male</td>
+<td align="left">camp_manager</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -233,6 +253,8 @@
 <td align="left">Dana</td>
 <td align="left">Qah</td>
 <td align="left">Al Jawlan</td>
+<td align="left">male</td>
+<td align="left">camp_residense elderly</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -1723,6 +1745,114 @@
 </tbody>
 </table>
 </div>
+<div id="variable-descriptive-data-gender-of-key-informant" class="section level4">
+<h4>Variable: <em>Descriptive data gender of key informant</em></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Categories</th>
+<th align="right">Original data</th>
+<th align="right">Modified data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">female</td>
+<td align="right">6</td>
+<td align="right">6</td>
+</tr>
+<tr class="even">
+<td align="left">male</td>
+<td align="right">228</td>
+<td align="right">228</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="variable-descriptive-data-key-informant-type" class="section level4">
+<h4>Variable: <em>Descriptive data key informant type</em></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Categories</th>
+<th align="right">Original data</th>
+<th align="right">Modified data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">camp_manager</td>
+<td align="right">69</td>
+<td align="right">69</td>
+</tr>
+<tr class="even">
+<td align="left">camp_manager camp_residense</td>
+<td align="right">63</td>
+<td align="right">63</td>
+</tr>
+<tr class="odd">
+<td align="left">camp_manager camp_residense elderly</td>
+<td align="right">6</td>
+<td align="right">6</td>
+</tr>
+<tr class="even">
+<td align="left">camp_manager community_leader camp_residense</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">camp_manager community_leader camp_residense elderly</td>
+<td align="right">7</td>
+<td align="right">7</td>
+</tr>
+<tr class="even">
+<td align="left">camp_manager elderly</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">camp_manager ngo community_leader camp_residense</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">camp_managment</td>
+<td align="right">5</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="left">camp_residense</td>
+<td align="right">63</td>
+<td align="right">63</td>
+</tr>
+<tr class="even">
+<td align="left">camp_residense elderly</td>
+<td align="right">6</td>
+<td align="right">6</td>
+</tr>
+<tr class="odd">
+<td align="left">community_leader</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">community_leader camp_residense</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">community_leader camp_residense elderly</td>
+<td align="right">4</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="left">elderly</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 <div id="r-code" class="section level2">
@@ -1762,7 +1892,7 @@
 <li><a href="https://github.com/alexkowa/sdcMicro/issues"><strong>Issue-Tracker for sdcMicro</strong></a></li>
 </ul>
 <hr />
-<p>This report was generated on mer., 26/12/2018 at 10:35:59.</p>
+<p>This report was generated on jeu., 27/12/2018 at 07:54:44.</p>
 </div>
     </section>
   </div>
